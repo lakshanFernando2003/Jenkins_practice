@@ -35,7 +35,7 @@ public class TestGreeter {
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 
-  // tests added for fail 
+  // tests added for fail --------------------------------------------
 
   @Test
   public void BornToFail() {
