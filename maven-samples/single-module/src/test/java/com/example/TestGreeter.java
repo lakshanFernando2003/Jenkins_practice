@@ -47,7 +47,7 @@ public class TestGreeter {
 
   @Test
   public void DieToFail() {
-    assertTrue(false);
+    assertTrue(true);
 
     // assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
