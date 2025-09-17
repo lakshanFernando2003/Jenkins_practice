@@ -37,20 +37,20 @@ public class TestGreeter {
 
   // tests added for fail ------------------------------------------------
 
-  // @Test
-  // public void BornToFail() {
-  //   assertTrue(false);
+  @Test
+  public void BornToFail() {
+    assertTrue(true);
 
-  //   assertThat(greeter.greet(someone), containsString(someone));
-  // }
+    // assertThat(greeter.greet(someone), containsString(someone));
+  }
   
 
-  // @Test
-  // public void DieToFail() {
-  //   assertTrue(false);
+  @Test
+  public void DieToFail() {
+    assertTrue(false);
 
-  //   assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  // }
+    // assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
 // ---------------------------------------------------------------------
     @Test
   public void greetShouldIncludeGreetingMessage() {
