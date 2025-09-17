@@ -45,12 +45,12 @@ public class TestGreeter {
   }
   
 
-  // @Test
-  // public void DieToFail() {
-  //   assertTrue(false);
+  @Test
+  public void DieToFail() {
+    assertTrue(false);
 
-  //   assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
-  // }
+    // assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
 // ---------------------------------------------------------------------
     @Test
   public void greetShouldIncludeGreetingMessage() {
