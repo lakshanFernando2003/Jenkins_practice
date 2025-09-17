@@ -41,7 +41,7 @@ public class TestGreeter {
   public void BornToFail() {
     assertTrue(false);
 
-    assertThat(greeter.greet(someone), containsString(someone));
+    // assertThat(greeter.greet(someone), containsString(someone));
   }
   
 
